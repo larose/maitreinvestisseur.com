@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>L&#39;arithmétique de la Bourse &middot; Maître Investisseur</title>
+    <meta name="author" content="Mathieu Larose">
+    <meta name="description" content="La référence pour investir en Bourse">
+    <meta name="generator" content="Hugo 0.15" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- RSS autodiscovery -->
+    
+
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.2/normalize.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maitreinvestisseur.com/css/screen.css">
+    <link rel="stylesheet" href="https://maitreinvestisseur.com/css/github.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
+
+    <!-- Stylesheet for theme color -->
+    <style type="text/css">
+    a, a:visited {color: #33cc99;}
+    .pagination a {color: #33cc99;}
+    .gist .gist-file .gist-meta a:visited {color: #33cc99 !important;}
+    a:focus, a:hover {color: #178b6b;}
+    h1.post-title a:focus, h1.post-title a:hover, h1.blog-title a:focus, h1.blog-title a:hover {color: #178b6b;}
+    .older-posts:hover, .newer-posts:hover {color: #178b6b;}
+</style>
+</head>
+
+<body class="post-template">
+
+    <header id="site-head">
+	
+	<h1 class="blog-title"><a href="https://maitreinvestisseur.com/">Maître Investisseur</a></h1>
+	
+	
+</header>
+    
+<nav class="menu" role="nav">
+    <ul>
+      <li class="nav nav-current"><a href="/">Accueil</a></li>
+        
+        	<li class="nav nav-current"><a href="/a-propos/">À propos</a></li>
+      	
+    </ul>
+</nav>
+
+
+
+    <main class="content" role="main">
+	    <article class="post">
+	        <header>
+	        <h1 class="post-title">L&#39;arithmétique de la Bourse</h1>
+	        <div class="post-meta"><time datetime="May 2016">Mai  2016</time></div>
+	        </header>
+
+	        <section class="post-content">
+	            <p>Si vous aviez un article à lire sur la Bourse, ce serait <em>The
+Arithmetic of Active Management</em><sup class="footnote-ref" id="fnref:f73404eba150519a06b3642e41408804:sharpe"><a rel="footnote" href="#fn:f73404eba150519a06b3642e41408804:sharpe">1</a></sup> de l&rsquo;économiste William
+Sharpe. Il explique l&rsquo;un des principes fondamentaux de la Bourse: il
+existe deux groupes d&rsquo;investisseurs et l&rsquo;un s&rsquo;enrichit plus que
+l&rsquo;autre. Cet article a changé ma compréhension de la Bourse et
+j&rsquo;espère qu&rsquo;il en fera tout autant pour vous.</p>
+
+<p>Dans n&rsquo;importe quel marché (par exemple, le marché canadien), on peut
+séparer les investisseurs en deux groupes. Les investisseurs indiciels
+d&rsquo;un côté (<a href="/difference-gestion-active-et-gestion-indicielle/">gestion indicielle</a>) et les
+investisseurs actifs de l&rsquo;autre (gestion active). Sharpe affirme que
+les investisseurs indiciels s&rsquo;enrichiront davantage que les
+investisseurs actifs.</p>
+
+<p>La raison est fort simple: avant les frais (de transaction, de
+gestion, d&rsquo;opération, etc.), le rendement collectif des deux groupes
+est le même. Les deux groupes auront exactement le rendement du
+marché. Mais puisque les frais des investisseurs actifs sont plus
+élevés que ceux des investisseurs indiciels, le rendement des
+investisseurs actifs est moins élevé que celui des investisseurs
+indiciels. Résultat: le groupe des investisseurs indiciels s&rsquo;enrichit
+davantage que le groupe des investisseurs actifs.</p>
+
+<p>Vous remarquerez que j&rsquo;utilise le mot groupe. C&rsquo;est parce qu&rsquo;il y a
+des gagnants et des perdants parmi les investisseurs actifs. Certains
+s&rsquo;enrichiront plus que d&rsquo;autres. Mais les investisseurs actifs,
+collectivement, s&rsquo;enrichissent moins que les investisseurs indiciels,
+collectivement.</p>
+
+<p>L&rsquo;objectif des investisseurs actifs est de battre le marché. Alors
+pourquoi leur rendement collectif n&rsquo;est pas meilleur que le rendement
+du marché? C&rsquo;est parce qu&rsquo;ils sont le marché.</p>
+
+<p>Dans sa totalité, un marché est constitué de la somme des
+portefeuilles de tous les investisseurs. Le rendement du marché est
+donc la moyenne<sup class="footnote-ref" id="fnref:f73404eba150519a06b3642e41408804:ponderee"><a rel="footnote" href="#fn:f73404eba150519a06b3642e41408804:ponderee">2</a></sup> du rendement de tous les investisseurs.</p>
+
+<p>Étant donné que:</p>
+
+<ol>
+<li><p>Le rendement du marché est le rendement collectif de tous les
+investisseurs.</p></li>
+
+<li><p>Chaque investisseur indiciel a exactement le rendement du marché.</p></li>
+</ol>
+
+<p>Alors, le rendement collectif des investisseurs actifs est égal au
+rendement du marché.</p>
+
+<p>Puisque chaque investisseur indiciel obtient exactement le rendement
+du marché, alors si un investisseur actif obtient un rendement
+supérieur à celui du rendement du marché, c&rsquo;est qu&rsquo;un autre
+investisseur actif a obtenu un rendement inférieur que le marché.</p>
+
+<p>La gestion active est donc un jeu qui se joue uniquement entre
+investisseurs actifs. Puisque tout gain fait par un joueur doit être
+au détriment d&rsquo;un autre joueur, la théorie des jeux appelle cela un
+jeu à somme nulle<sup class="footnote-ref" id="fnref:f73404eba150519a06b3642e41408804:jeu-somme-nulle"><a rel="footnote" href="#fn:f73404eba150519a06b3642e41408804:jeu-somme-nulle">3</a></sup>. Lorsqu&rsquo;on prend en considération
+les frais payés par les investisseurs actifs, on dit alors que la
+gestion active est un jeu à somme négative. Collectivement, les
+investisseurs actifs font moins de gains que les investisseurs
+indiciels.</p>
+
+<p>Pour vous enrichir en Bourse, vous pouvez soit jouer au jeu de la
+gestion active et espérer gagner, <a href="/les-experts-sont-ils-aussi-bons-que-les-chimpanzes-a-la-bourse/">mais c&rsquo;est peu probable</a> soit investir dans des fonds indiciels à faibles coûts et être
+sûr d&rsquo;obtenir votre juste part du marché.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:f73404eba150519a06b3642e41408804:sharpe"><a href="the-arithmetic-of-active-management.pdf">The Arithmetic of Active Management, Sharpe, 1991</a>
+ <a class="footnote-return" href="#fnref:f73404eba150519a06b3642e41408804:sharpe"><sup>[return]</sup></a></li>
+<li id="fn:f73404eba150519a06b3642e41408804:ponderee">C&rsquo;est une moyenne pondérée. Pondérer signifie que chaque investisseur est comptabilisé en fonction de sa valeur dans la moyenne. Plus un investisseur vaut cher, plus son rendement influence le rendement du marché.
+ <a class="footnote-return" href="#fnref:f73404eba150519a06b3642e41408804:ponderee"><sup>[return]</sup></a></li>
+<li id="fn:f73404eba150519a06b3642e41408804:jeu-somme-nulle"><a href="https://fr.wikipedia.org/wiki/Jeu_%C3%A0_somme_nulle">Jeu à somme nulle</a>
+ <a class="footnote-return" href="#fnref:f73404eba150519a06b3642e41408804:jeu-somme-nulle"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+	        </section>
+
+	        
+	        
+	        
+	        
+	        
+	        
+
+			
+
+			
+
+
+	        <section class="share">
+	            <p class="backtotop"><a data-scroll href="#site-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#site-head"> Retour vers le haut</a></p>
+	            <p class="info prompt">Partager</p>
+	            <a href="http://twitter.com/share?text=L%27arithm%c3%a9tique%20de%20la%20Bourse&url=https%3a%2f%2fmaitreinvestisseur.com%2fl-arithmetique-de-la-bourse%2f" title="Share on Twitter"
+	                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+	                <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden">Twitter</span>
+	            </a>
+	            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmaitreinvestisseur.com%2fl-arithmetique-de-la-bourse%2f" title="Share on Facebook"
+	                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+	                <i class="fa fa-2x fa-fw fa-facebook-square" style="margin-left: -8px"></i> <span class="hidden">Facebook</span>
+	            </a>
+	            <a href="https://plus.google.com/share?url=https%3a%2f%2fmaitreinvestisseur.com%2fl-arithmetique-de-la-bourse%2f" title="Share on Google+"
+	               onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+	                <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden">Google+</span>
+	            </a>
+	        </section>
+
+                <section class="">
+                  
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	 
+</style>
+<div id="mc_embed_signup">
+<form action="//maitreinvestisseur.us8.list-manage.com/subscribe/post?u=bcef2bf50cf560484e2187dd4&amp;id=56a879df26" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Abonnez-vous à notre liste de diffusion!</h2>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Adresse de courriel</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bcef2bf50cf560484e2187dd4_56a879df26" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="S'abonner" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+
+                </section>
+
+
+	        <footer class="post-footer">
+	            
+
+
+
+
+
+
+
+
+	        </footer>
+	    </article>
+	</main>
+
+    <footer class="site-footer">
+  <div class="inner">
+    <section class="footer-social">
+
+      
+      <a href="mailto:info@maitreinvestisseur.ca" target="_blank" title="Adresse de courriel"><i class="fa fa-2x fa-fw fa-envelope"></i> <span class="hidden">Adresse de courriel</span></a>&nbsp;
+      
+
+      
+
+      
+      <a href="//facebook.com/maitreinvestisseur" target="_blank" title="Facebook"><i class="fa fa-2x fa-fw fa-facebook"></i> <span class="hidden">Facebook</span></a>&nbsp;
+      
+
+      
+
+
+      
+    </section>
+
+    <section class="copyright">&copy; 2020 <a href="https://maitreinvestisseur.com/">Mathieu Larose</a> </section>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maitreinvestisseur.com/js/index.js"></script>
+<script src="https://maitreinvestisseur.com/js/smooth-scroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script>
+    smoothScroll.init({
+        speed: 800,
+        easing: 'easeInOutCubic',
+        updateURL: false,
+        offset: 125,
+    });
+</script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<!-- Google Analytics -->
+<script>
+  var _gaq=[['_setAccount','UA-81569510-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+
+
+</body>
+</html>
